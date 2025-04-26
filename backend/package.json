@@ -11,6 +11,8 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.797.0",
+    "@aws-sdk/lib-dynamodb": "^3.797.0",
     "hono": "^4.7.7",
     "zod": "^3.24.3"
   }
