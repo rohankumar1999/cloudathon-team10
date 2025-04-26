@@ -21,6 +21,7 @@ COPY package.json ./
 
 ENV NODE_ENV=production
 
+# expose Vite preview port (default: 4173)
 EXPOSE 3000
 
 # serve the static build
